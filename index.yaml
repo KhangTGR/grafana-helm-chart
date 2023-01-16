@@ -3,9 +3,9 @@ entries:
   grafana:
   - apiVersion: v2
     appVersion: 9.3.1
-    created: "2023-01-16T12:03:58.7161421+07:00"
+    created: "2023-01-16T12:21:11.7569608+07:00"
     description: The leading tool for querying and visualizing time series and metrics.
-    digest: a4116c83658ef6a8c68941f625dd71af53435cdec96bf6e8fdf566eee2e8b67d
+    digest: 501f3ef9071153f77d964deba8e874d8b34399f562883b940982872b9a04363e
     icon: https://raw.githubusercontent.com/grafana/grafana/master/public/img/logo_transparent_400x.png
     kubeVersion: ^1.8.0-0
     name: grafana
@@ -13,4 +13,4 @@ entries:
     urls:
     - https://khangtgr.github.io/grafana-helm-chart/grafana-1.0.1.tgz
     version: 1.0.1
-generated: "2023-01-16T12:03:58.6763124+07:00"
+generated: "2023-01-16T12:21:11.7156729+07:00"
