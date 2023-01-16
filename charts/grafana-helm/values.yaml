@@ -177,7 +177,8 @@ service:
   ## Service annotations. Can be templated.
   annotations:
     service.beta.kubernetes.io/aws-load-balancer-type: "internal"
-    service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: "ip"
+    service.beta.kubernetes.io/aws-load-balancer-nlb-target-type: "instance"
+    service.beta.kubernetes.io/aws-load-balancer-scheme: "internet-facing"
     service.beta.kubernetes.io/aws-load-balancer-proxy-protocol: "*"
     service.beta.kubernetes.io/aws-load-balancer-internal: "true"
     # service.beta.kubernetes.io/aws-load-balancer-internal: 0.0.0.0/0
